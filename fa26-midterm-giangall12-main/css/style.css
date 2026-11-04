@@ -45,7 +45,16 @@ h1 {
 }
 #projects h2 {
     text-align:center;
-    font-size:200%; 
+    font-size:200%;
+    font-family:"Jost";
+}
+
+#projects h3 {
+    font-family:"Jost";
+}
+
+#projects div{
+    font-family:"Jost";
 }
 
 /* Reviews */
@@ -58,6 +67,7 @@ h1 {
     margin-bottom:1rem;
     background-color:#86F571;
     
+    
 }
 .review .content {
     flex-grow:4;
@@ -68,10 +78,14 @@ h1 {
 .review .name {
     font-size:120%;
     font-weight:bold;
-    font-style:"Abel";
+    font-family: "Noto Serif";
 }
 .review .title {
-    font-style:"Abel";
+    font-family:"Jost";
+}
+
+#reviews h2{
+    font-family:"Jost";
 }
 
 /* Footer */
